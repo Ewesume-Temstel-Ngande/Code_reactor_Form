@@ -1,0 +1,111 @@
+<!Doctype html>
+<html>
+    <head>
+<title>Code Reactor survey form</title>
+<style>
+*{margin= 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .body{
+        min-height: 100vh;
+        background: #222;
+        display: flex;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    .enteries{
+        margin:auto;
+        width: 500px;
+        max-width: 90%;
+    }
+    .enteries form{
+        width: 100%;
+        height: 200%;
+        padding: 70px;
+        background: whitesmoke;
+        border-radius: 4px;
+        box-shadow: 0 8px 16px rgba(red, green, blue, alpha);
+    }
+    .enteries form h1{
+        text-align: center;
+        margin-bottom: 24px;
+        color: green;
+    }
+    .enteries form .deets{
+        width: 100%;
+        height: 40px;
+        background: white;
+        border-radius: 4px;
+        border: 1px solid silver;
+        margin: 10px 0 18px 0;
+        padding: 0 10px;
+    }
+    .enteries form .go{
+        margin-left: 50%;
+        transform: translate(-50%);
+        width: 120px;
+        height: 34px;
+        border: none;
+        outline: none;
+        background: rgb(93, 206, 93);
+        cursor: pointer;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+        .enteries form .sug{  width: 100%;
+        height: 40px;
+        background: white;
+        margin: 10px 0 18px 0;
+        padding: 0 10px;
+        
+
+        }
+        .h1{ margin: 5%;
+            transform: translate(5%);
+            width:120;
+            height: 1px;
+            border:none;
+            background: green;
+            font-size:large;
+            margin-left: 0cqmax;
+            font-family:Times New Roman;
+        }
+</style>
+    </head>
+    <body>
+        ,<div class="h1">
+        <h1>Welcome to the official refuge survey form for Code Reactor</h1>
+    </div>
+        <div class="enteries">
+        <form >
+            <h1 >Survey Form</h1>           
+            First name <input type="text" placeholder=" Please Enter First name" class="deets" required><br>
+            Surname<input type="text" placeholder=" Please Enter Surname" class="deets" required><br>
+            Email<input type="email" placeholder=" Please Enter email" class="deets" required><br>
+            Date of birth<input type="date" placeholder=" Please Enter date of birth"class="deets" required><br>
+            Occupation<input type="text"/ placeholder=" Please Enter Occupation" class="deets" required><br>
+            Suggestion<input type="text area"/ placeholder=" Please Enter Suggestion" class="deets"  required></text><br>
+            <ol>
+                <span class="genter_title">Gender</span>
+                <div class="gender_category">
+                    <input type="radio" name="gender" id="male">
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="gender">Female</label>
+                </div>
+                <span class="options"></span>
+                <li class="sug" >Hissacam should only come during weekends <input type="checkbox"></li>
+                <li class="sug">Hissacam should only come during week days  <input type="checkbox"></li>
+                <li class="sug">Hissacam should move from door to door<input type="checkbox"></li>
+                <li class="sug">Hissacam should only come pick up refuge from Market bin<input type="checkbox"></li>
+                <li class="sug">We dont need hissacam<input type="checkbox"></li>
+            </ol>
+           <a href="Submit_page.html"><input type="submit" class="go" value="Submit" href></a>
+
+
+
+        </form>
+    </div>
+    </body> 
+</html>
